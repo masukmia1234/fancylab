@@ -9,7 +9,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package Fancy Lab
+ * @package Fancy Lab 
  */
 
 get_header();

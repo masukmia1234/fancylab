@@ -22,7 +22,7 @@
 		<header>
 			<section class="search">
 				<div class="container">
-					Search
+					Search Form
 				</div>
 			</section>
 			<section class="top-bar">
