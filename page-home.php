@@ -11,10 +11,9 @@
  *
  * @package Fancy Lab 
  */
-
 get_header();
 ?>
-		<div class="content-area">
+	<div class="content-area">
 			<main>
 				
 			

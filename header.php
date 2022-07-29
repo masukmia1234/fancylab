@@ -22,7 +22,7 @@
 		<header>
 			<section class="search">
 				<div class="container">
-					Search Form
+					Search
 				</div>
 			</section>
 			<section class="top-bar">
@@ -31,7 +31,15 @@
 						<div class="brand col-3">Logo</div>
 						<div class="second-column col-9">
 							<div class="acount">Account</div>
-							<nav class="main-menu">Menu</nav>
+							<nav class="main-menu">
+								<?php 
+									wp_nav_menu(
+										array(
+											'theme_location'		=> 'primary'
+										)
+									);
+								?>
+							</nav>
 						</div>						
 					</div>
 				</div>

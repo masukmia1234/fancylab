@@ -16,3 +16,11 @@
 	
  }
  add_action( 'wp_enqueue_scripts', 'fancy_lab_scripts' );
+
+ function add_nav_menus() {
+	register_nav_menus( array(
+		 'main menu'=>'main menu',
+		 'footer menu'=> 'footer menu',
+	));
+}
+add_action('init', 'add_nav_menus');
