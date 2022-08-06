@@ -130,5 +130,6 @@ do_action( 'woocommerce_sidebar' );
 ?>
 </div>
 </div>
+<?php
 get_footer( 'shop' );
 ?>

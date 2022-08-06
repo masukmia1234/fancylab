@@ -61,4 +61,5 @@ function fancy_lab_config(){
 	
 }
 
-add_action( 'after_setup_theme', 'fancy_lab_config', 0 );
+add_action( 'after_setup_theme', 'fancy_lab_config' ,0);
+require get_template_directory() . '/inc/wc-modification.php';
